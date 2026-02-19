@@ -1,0 +1,16 @@
+Project: TCP Port Scanner (Syntecxhub Cybersecurity Internship - Week 1)
+Author: Tendani Shonisani Thomu
+
+Description: Built a multi-threaded TCP port scanner in Python to check open/closed/timed-out ports on a host. Uses socket programming for connections, threading for concurrency, argparse for host/range options, logging for results, and exception handling.
+
+How to Run:
+python port_scanner.py 127.0.0.1 --start 1 --end 100
+
+Features Met:
+- TCP scanning with sockets
+- Concurrency via threads
+- Single host or port range
+- Prints/logs open/closed/timeouts
+- Handles exceptions (timeouts, errors)
+
+Learned: Socket basics, threading, error handling, logging.
